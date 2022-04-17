@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+html {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+}
+
+*::before,
+*::after,
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: black;
+	padding: 0 105px 0;
+}
+
+nav {
+	font-size: 12px;
+	margin: 55px auto 120px;
+	max-width: 1230px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo,
+.menu1,
+.menu2 {
+	display: inline-block;
+}
+
+li {
+	list-style: none;
+	padding-right: 20px;
+}
+
+.menu1 li {
+	display: inline-block;
+}
+
+.menu1 li a {
+	color: #fff;
+}
+
+.menu2 li {
+	display: inline-block;
+}/*дубль*/
+
+.menu2 li a {
+	color: #808080;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+
+.vl{
+	border-left: 1px solid #fff;
+	height: 60px;
+}
+
+header{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-image: url(img/image\ 2.png);
+	padding-bottom: 960px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+header h1, p{
+	margin-bottom: 25px;
+}
+
+header h1{
+	font-size: 64px;
+	font-weight: 400;
+}
+
+header p{
+	text-align: center;
+	font-weight: 300;
+}
+
+.img img{
+	max-width: 645px;
+}
+
+.main1{
+
+}
+
+.img{
+	position: relative;
+}/*лишено смысла*/
+
+main{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main1{
+	justify-content: center;
+	display: flex;
+	flex-direction:column;
+}
+
+h3{
+	margin-bottom: 54px;
+}
+
+table{
+	margin-bottom: 220px;
+}
+
+td{
+	padding-bottom: 10px;/*правильнее маржин*/
+	width: 290px;
+}
+
+.unmatched p{
+	line-height: 30px;
+}
+
+table span{
+	color:#B2B0B2;
+}
+
+footer{
+	margin-top: 180px;
+}
+
+.img1 img{
+	display: block;/* лишено смысла*/
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 45px;
+}
+
+.menu3 ul li{
+	display: inline-block;
+	list-style: none;
+	padding-right: 20px;/*фигня непонятная*/
+	text-align: center;
+}
+
+.menu3 ul li a{
+	color: #fff;
+}
+
+footer p{
+	text-align: center;
+	margin-bottom: 30px;
+	color:#808080;
+}
+
+.menu3{
+	margin:0 auto 30px;
+}
+
+button{
+	padding: 20px 85px 20px 85px;
+	background-color: black;
+	color: #fff;
+	border: 2px solid #FFFFFF;
+	border-radius: 6px;
+	margin-bottom: 130px;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+}
